@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+  <meta charset="utf-8">
+  <title>Instacoup</title>
+
+  <!--Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  
+  <!-- Pixeden Stroke Icons -->
+  <link href="css/vendor/pixeden.css" rel="stylesheet" media="screen">
+
+  <!-- All Theme Styles including Bootstrap, FontAwesome, etc. compiled from styles.scss-->
+  <link href="css/styles.css" rel="stylesheet" media="screen">
+
+   <!--Favicon-->
+  <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+  
+  <!--Modernizr / Detectizr-->
+  <script src="js/vendor/modernizr.custom.js"></script>
+  <script src="js/vendor/detectizr.min.js"></script>
+</head>
+    
+<body>
+
+ 
+  <div id="preloader" data-spinner="spinner2" data-screenbg="#fff"></div>
+
+  <!-- Page Wrapper -->
+  <div class="page-wrapper">
+
+    <!-- Navbar -->
+    <!-- Add class ".navbar-sticky" to make navbar stuck when it hits the top of the page. You can also use modifier class like: "navbar-light" to change navbar apperance. The screen width at which navbar collapses can be controlled through the variable "$nav-collapse" in sass/variables.scss -->
+    <header class="navbar navbar-light navbar-sticky">
+      <div class="container">
+        <a href="#" class="site-logo">
+          <img src="img/logo.png" class="logo-default" style="max-width: 180%;" >
+          <img src="img/logo.png" class="logo-alt" style="max-width: 180%;">
+        </a><!-- .site-logo -->
+        
+        <!-- Mobile Menu Toggle -->
+        <div class="nav-toggle"><span></span></div>
+
+        <div class="clearfix">
+
+          <div class="toolbar text-right">
+             <a href="#download" class="btn btn-sm btn-light scroll-to" data-offset-top="70" style="border: 1px solid rgba(0,0,0,0.2);">Get App</a>
+          </div><!-- .toolbar -->
+
+          <!-- Use modifier class to apply different submenu (dropdown) animations. Possible options: .submenu-slideUp, .submenu-slideDown, .submenu-flipIn. Please note if no class added to .main-navigation default fadeIn animation will be applied. Note: this is applicable only for Desktop. -->
+          <nav class="main-navigation submenu-slideDown">
+            <ul class="menu">
+              <li class="has-submenu current"><a href="#">Home</a>
+              
+              </li>
+              <li class="has-submenu"><a href="#aboutus">About Us</a>
+              
+              </li>
+              <li class="has-submenu"><a href="#work">How It Works?</a>
+               
+              </li>
+              <li class="has-submenu"><a href="#">FAQs</a> 
+
+        </li>
+              <li class="has-submenu"><a href="#contct">Contact us</a>
+        
+        </li>
+            </ul>
+          </nav><!-- .main-navigation -->
+        </div><!-- .clearfix -->
+      </div><!-- .container -->
+    </header><!-- .navbar -->
+    
+    <!-- Device Slider -->
+  <div class="overly" >
+    <section class="device-slider" style="background-image:url('img/1.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <!-- Phone Carousel -->
+            <!-- Data API:
+              data-loop="true/false" enable/disable looping
+              data-autoplay="true/false" enable/disable carousel autoplay
+              data-interval="3000" autoplay interval timeout in miliseconds 
+             -->
+            <div class="phone-carousel" data-loop="true" data-autoplay="true" data-interval="4000">
+              <img src="img/device-slider/phone.png" class="phone-mask" alt="Phone">
+              <!-- Fallback Cover Screen -->
+              <div class="cover">
+                <img src="img/device-slider/screen01.jpg" alt="Screen 1">
+              </div>
+              <div class="carousel">
+                <div class="inner">
+                  <img src="img/device-slider/screen01.jpg" alt="Screen 1">
+                  <img src="img/device-slider/screen02.jpg" alt="Screen 2">
+                  <img src="img/device-slider/screen03.jpg" alt="Screen 3">
+                  <img src="img/device-slider/screen04.jpg" alt="Screen 4">
+                </div>
+              </div>
+            </div><!-- .phone-carousel -->
+          </div>
+          <div class="col-sm-7 padding-top mobile-center">
+            <div class="text-light">
+              <h1>Think Food, <br> Think US !...</h1>
+            </div>
+            <p class="text-light">Instacoup is a mobile application, working on all kind of mobile platforms, to provide you with discount coupons of restaurants and cafes.</p>
+            <!-- App Store Button -->
+            <a href="http://onelink.to/8xgsmz" class="btn btn-app-store">
+              <i class="fa fa-apple"></i>
+              <div>
+                <span>Download on the</span>
+                App Store
+              </div>
+            </a>
+            <!-- Google Play Button -->
+            <a href="http://onelink.to/8xgsmz" class="btn btn-google-play">
+              <img src="img/google-play.png" alt="Google Play">
+              <span>Get it on</span>
+            </a>
+          </div>
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </section><!-- .device-slider -->
+  </div>
+    <!-- Welcome Text -->
+    <section class="fw-section padding-top-3x padding-bottom-3x" id="#aboutus" style="background-image: url(img/home/welcome.png);">
+      <div class="container padding-top-3x text-center">
+        <h2 class="text-primary space-top-2x">Welcome To <span class="text-thin"> Insta Coup</span></h2>
+        <!-- Apply ".light-skin" class to make button white. -->
+        <a href="#intro" class="scroll-down-btn scroll-to space-top-2x" data-offset-top="50">
+          <span class="play-btn"><i class="fa fa-angle-down"></i></span>
+        </a><!-- .scroll-down-btn -->
+      </div><!-- .container -->
+    </section><!-- .fw-section -->
+
+    <!-- Features -->
+    <!-- Apply modifier color classes: ".gray-bg", ".dark-bg", ".gradient-bg" -->
+    <section class="fw-section  mobile-center" id="aboutus">
+      <div class="container padding-top-3x padding-bottom-3x">
+
+        <div class="space-bottom-2x text-center">
+          <h2>Why Instacoup?</h2>
+          <h4>Everything you need to know about one App. Forever. <span class="text-bold text-primary">For free.</span></h4>
+        </div>
+
+        <!-- Features -->
+        <div class="icon-block-row">
+          <!-- Apply ".light-skin" class to change appearance of icon block to use on dark backgrounds. -->
+          <div class="icon-block">
+            <div class="inner">
+              <div class="ib-icon">
+                <i class="pe-7s-gleam"></i>
+              </div>
+              <div class="ib-content">
+                <h3>Great deals</h3>
+                <p>Great deals and amazing discounts to choose from out of many restaurants</p>
+              </div>
+            </div>
+          </div><!-- .icon-block -->
+          <div class="icon-block">
+            <div class="inner">
+              <div class="ib-icon">
+                <i class="pe-7s-coffee"></i>
+              </div>
+              <div class="ib-content">
+                <h3>Great Foods </h3>
+                <p> Stay updated with the hottest and the most sizzling food deals in the city.
+</p>
+              </div>
+            </div>
+          </div><!-- .icon-block -->
+        </div><!-- .icon-block-row -->
+
+        <div class="icon-block-row">
+          <!-- Apply ".light-skin" class to change appearance of icon block to use on dark backgrounds. -->
+          <div class="icon-block">
+            <div class="inner">
+              <div class="ib-icon">
+                <i class="pe-7s-ticket"></i>
+              </div>
+              <div class="ib-content">
+                <h3>Discount Coupons</h3>
+                <p>Get coupons as per your food preferences.
+</p>
+              </div>
+            </div>
+          </div><!-- .icon-block -->
+          <div class="icon-block">
+            <div class="inner">
+              <div class="ib-icon">
+                <i class="pe-7s-note"></i>
+              </div>
+              <div class="ib-content">
+                <h3>Select Favourite Restaurant</h3>
+                <p>Read reviews of restaurants by other foodies like you.
+Easy to use and access.
+  </p>
+              </div>
+            </div>
+          </div><!-- .icon-block -->
+        </div><!-- .icon-block-row -->
+
+         <div class="icon-block-row">
+          <!-- Apply ".light-skin" class to change appearance of icon block to use on dark backgrounds. -->
+          <div class="icon-block">
+            <div class="inner">
+              <div class="ib-icon">
+                <i class="pe-7s-phone"></i>
+              </div>
+              <div class="ib-content">
+                <h3>Esay Use</h3>
+                <p>No need to get the coupons printed
+ </p>
+              </div>
+            </div>
+          </div><!-- .icon-block -->
+          <div class="icon-block">
+            <div class="inner">
+              <div class="ib-icon">
+                <i class="pe-7s-angle-left-circle"></i>
+              </div>
+              <div class="ib-content">
+                <h3>Notifications</h3>
+                <p>Get notified about the upcoming food related events and not-to-miss deals.
+ </p>
+              </div>
+            </div>
+          </div><!-- .icon-block -->
+        </div><!-- .icon-block-row -->
+
+        <div class="icon-block-row space-bottom">
+          <!-- Apply ".light-skin" class to change appearance of icon block to use on dark backgrounds. -->
+          <div class="icon-block">
+            <div class="inner">
+              <div class="ib-icon">
+                <i class="pe-7s-gift"></i>
+              </div>
+              <div class="ib-content">
+                <h3>Get Rewards </h3>
+                <p>We promise to keep you abreast with the upcoming food scenes in city.
+</p>
+              </div>
+            </div>
+          </div><!-- .icon-block -->
+          <div class="icon-block">
+            <div class="inner">
+              <div class="ib-icon">
+                <i class="pe-7s-timer"></i>
+              </div>
+              <div class="ib-content">
+                <h3>Saves Your Precious Time </h3>
+                <p>Compare deals and choose the best for yourself.</p>
+              </div>
+            </div>
+          </div><!-- .icon-block -->
+        </div><!-- .icon-block-row -->
+
+      </div><!-- .container -->
+    </section><!-- .fw-section -->
+
+    <section class="fw-section parallax-bg padding-top-3x padding-bottom-2x" style="background-image: url(img/1.html);">
+      <span class="overlay"></span>
+      <div class="container text-center text-light">
+        <h2>"For the food lovers, by the food lovers" <br>what does that mean, you ask?</h2>
+        <h4>Our users will have the opportunity to post genuine reviews about the places visited and hence, help you choose the best!
+</h4>
+      </div>
+    </section>
+  
+
+    <!-- Introduction -->
+    <section class="container padding-top-3x" id="work">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-lg-10">
+              <!-- Block Title -->
+              <!-- Use modifier classes: ".featured-title" - to enable fancy animation on hover; ".text-center" and "text-right" - for title alignment. Apply ".light-skin" class for changing appearance. -->
+              <div class="block-title featured-title">
+                <h2>How we work<br><i class="text-thin">we've worked hard on it.</i></h2>
+                <span>For You!</span>
+              </div><!-- .block-title.featured-title -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+      <ul class="featured-list">  
+              <li>Download the app and sign up/log in. Select your location, select your restaurant/ cafÃ©. </li>
+              <li>You will be provided with a discount coupon and menu of your selected restaurant/cafÃ©. </li>
+            </ul>
+      </div>
+            <div class="col-sm-6">
+        <ul class="featured-list">    
+              <li>You can avail discount by announcing your coupon code while placing your order. You can also place your order through the application and get it served as per your convenient time.  This saves you precious time and money.</li>
+        </ul>
+      </div>
+          </div>
+        </div><!-- .col-md-8 -->
+        <div class="col-md-4">
+          <img src="img/home/screen01.jpg" class="block-center" alt="Screen 1">
+        </div><!-- .col-md-4 -->
+      </div><!-- .row -->
+      <div class="space-bottom-3x visible-lg"></div>
+      <div class="space-bottom-2x hidden-lg"></div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-5 col-md-push-7 col-lg-push-8 padding-top">
+          <!-- Block Title -->
+          <!-- Use modifier classes: ".featured-title" - to enable fancy animation on hover; ".text-center" and "text-right" - for title alignment. Apply ".light-skin" class for changing appearance. -->
+          <div class="block-title featured-title">
+            <h2>What <br>We Are</h2>
+            <span>Look!</span>
+          </div><!-- .block-title.featured-title -->
+          <p>Instacoup is a mobile application based start up to provide free coupons for a variety of food outlets. Avail these coupons from our application and use them to get discount while placing your order. Not only does it take care of your dining deals but also lets you know about the newly opened food joints around you and their genuine reviews by the customers. </p>
+
+<p>High end restaurants, the evening chit-chat coffee shops or the roadside food joints, we have it all! </p>
+   </div><!-- .col-md-5.col-md-push-7 -->
+
+        <div class="col-lg-8 col-md-7 col-md-pull-5 col-lg-pull-4">
+          <img src="img/home/screen02.jpg" class="block-center" alt="Screen 2">
+        </div><!-- .col-md-7.col-md-pull-5 -->
+      </div><!-- .row -->
+    </section><!-- .container -->
+
+  
+    <!-- Split Section -->
+    <section class="split-section img-right">
+      <div class="image" style="background-image: url(img/home/split-section/01.jpg);"></div>
+      <!-- Add ".dark-bg" class to content to change background to dark. In this case make sure apply ".text-light" class to the ".container" below. -->
+      <div class="content"></div>
+      <div class="container padding-top-3x padding-bottom-3x">
+        <div class="row space-top">
+          <div class="col-md-5">
+            <h3>Our Mission</h3>
+            <p>To build a simplified platform that can make your ordering and restaurant/cafÃ© experience enjoyable.</p>
+      <h3>Our Vision</h3>
+            <p>We have a vision to provide best quality, unhindered services to save your time and money.</p>
+            <h3> Whatâ€™s more? </h3>
+             <p>We make sure your meals are never not worth it.You (and many others like you) get to write a review of any place you visit. </p> 
+      </div>
+        </div><!-- .row -->
+
+       
+      </div><!-- .container -->
+    </section><!-- .split-section -->
+
+    <!-- Feature Tabs -->
+    <section class="container padding-top-3x padding-bottom-3x">
+
+      <div class="space-bottom-2x text-center">
+        <h2>Learn how to start working with us</h2>
+        <h4>It takes just <span class="text-primary text-bold">2 minutes</span></h4>
+      </div>
+
+      <div class="featured-tabs">
+        <div class="row">
+          <div class="col-md-7 col-md-push-5 padding-top-2x space-bottom">
+            <!-- Nav Tabs -->
+            <!-- Add data-autoswitch="true" to enable automatic tabs change. data-interval="4000" - controls the timeout. PLEASE NOTE: autoplay causes some issues with sections with fixed backgrounds. -->
+            <ul class="nav-tabs" role="tablist">
+              <li class="active">
+                <span class="number"><i>1</i></span>
+                <a href="#tab01" role="tab" data-toggle="tab">Select Category</a>
+                <p>Download the app and sign up/log in.After that select restaurant or cafe.</p>
+              </li>
+              <li>
+                <span class="number"><i>2</i></span>
+                <a href="#tab02" role="tab" data-toggle="tab">Select Restaurant</a>
+                <p> Select your location, select your restaurant or cafÃ©. You will be provided with a discount coupon and menu of your selected restaurant/cafÃ©. <p>
+              </li>
+              <li>
+                <span class="number"><i>3</i></span>
+                <a href="#tab03" role="tab" data-toggle="tab">Select Menu</a>
+                <p>By Selecting Your Favourite Restaurant Or Cafe. You can place your order with discount coupon.</p>
+              </li>
+         <li>
+                <span class="number"><i>4</i></span>
+                <a href="#tab04" role="tab" data-toggle="tab">Select Payment Type</a>
+                <p>You can also place your order through the application and get it served as per your convenient time.  This saves you precious time and money.
+</p>
+        </li>
+            </ul><!-- .nav-tabs -->
+          </div><!-- .col-md-7.col-md-push-5 -->
+          <div class="col-md-5 col-md-pull-7">
+            <!-- Tab Panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane transition fade right in active" id="tab01">
+                <img src="img/home/featured-tabs/01.png" class="block-center" alt="Tab">
+              </div>
+              <div role="tabpanel" class="tab-pane transition fade scale" id="tab02">
+                <img src="img/home/featured-tabs/02.png" class="block-center" alt="Tab">
+              </div>
+              <div role="tabpanel" class="tab-pane transition fade flip" id="tab03">
+                <img src="img/home/featured-tabs/03.png" class="block-center" alt="Tab">
+              </div>
+        <div role="tabpanel" class="tab-pane transition fade flip" id="tab04">
+                <img src="img/home/featured-tabs/04.png" class="block-center" alt="Tab">
+              </div>
+            </div><!-- .tab-content -->
+          </div><!-- .col-md-7.col-md-push-5 -->
+        </div><!-- .row -->
+      </div><!-- .featured-tabs -->
+    </section><!-- .container -->
+
+    <!-- Video -->
+    <!-- Apply ".parallax-bg" class to make background image fixed on scroll. Add/remove ".overlay" to darken/lighten the background. Overlay color can be changed in variable.scss -> $fw-section-overlay-color -->
+    <section class="fw-section parallax-bg padding-top-3x padding-bottom-2x" style="background-image: url(img/home/video-bg.jpg);">
+      <span class="overlay-light"></span>
+      <div class="container padding-top-3x padding-bottom-3x text-center">
+        <h2>Promo video of our application</h2>
+        <!-- Apply ".light-skin" class to make button white. -->
+        <a href="http://onelink.to/8xgsmz" class="video-popup-btn">
+          <span class="play-btn"><i class="fa fa-play"></i></span>
+        </a><!-- .video-popup-btn -->
+      </div><!-- .container -->
+    </section><!-- .fw-section.parallax-bg -->
+  
+     <!-- Contact Form -->
+    <section class="container space-bottom-2x padding-top-3x" id="contct">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+           <div class="space-bottom-2x text-center">
+        <h2>Contact Us</h2>
+        
+      </div>
+          <form method="post" class="ajax-form space-top">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="cont_form_name" class="sr-only">Name</label>
+                  <input type="text" class="form-control" name="name" id="cont_form_name" placeholder="Name">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="cont_form_email" class="sr-only">Email</label>
+                  <input type="email" class="form-control" name="email" id="cont_form_email" placeholder="Email">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cont_form_message" class="sr-only">Message</label>
+              <textarea name="message" id="cont_form_message" class="form-control" rows="7" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-ghost btn-default">Send Message</button>
+            </div>
+            <!-- Validation Response -->
+            <div class="response-holder"></div>
+          </form><!-- .ajax-form -->
+        </div>
+      </div><!-- .row -->
+    </section><!-- .container.space-bottom-2x -->
+
+   
+   
+  
+    <!-- Market Buttons -->
+    <section class="fw-section parallax-bg padding-top-3x padding-bottom-2x"  style="background-image: url(img/home/download-bg.jpg);">
+      <span class="overlay"></span>
+      <div class="container text-center text-light">
+        <h2>Download. Be smart.</h2>
+        <h4>We worked hard and made two versions for three popular platforms.</h4>
+      </div>
+    </section>
+    
+    <!-- Scroll To Top Button -->
+    <a href="#" class="scroll-to-top-btn">
+      <i class="fa fa-angle-up"></i>
+    </a><!-- .scroll-to-top-btn -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+
+			<br><br>
+            <div class="space-bottom-2x visible-xs"></div>
+			<div class="row">
+          <div class="col-md-4">
+
+		   <a href="#" class="footer-logo">
+              <img src="img/logo1.png" alt="Julia">
+            </a><!-- .footer-logo -->
+			</div>
+			<div class="col-md-8">
+           
+            </div>
+			</div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="widget widget_pages">
+                  <h3 class="widget-title">Quick Links</h3>
+                  <ul style="color:#fff;">
+                    <li><a href="http://instacoup.in/terms">Terms & Codition</a></li>
+                    <li><a href="http://instacoup.in/privacy">Privacy Policy</a></li>
+                    <li><a href="http://instacoup.in/policy">Usage Policy</a></li>
+                  </ul>              </div><!-- .widget_pages -->
+              </div><!-- .col-sm-4 -->
+              <div class="col-sm-4">
+                <div class="widget widget_pages">
+                  <h3 class="widget-title">Get In Touch</h3>
+                    <ul style="color:#fff;">
+			 <li><i class="fa-list fa fa-phone"></i>(91) 99252 44995 </li>
+            <li><i class="fa-list fa fa-envelope"></i>hello@instacoup.com</li>
+            </ul>
+                </div><!-- .widget_pages -->
+
+            </div><!-- .row -->
+			
+			          <div class="col-sm-4">
+                <div class="widget widget_pages">
+                  <h3 class="widget-title">Follow Us</h3>
+                    <div class="social-bar">
+              <a href="#" class="sb-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <i class="fa fa-twitter"></i>
+              </a>
+             
+              <a href="https://www.facebook.com/instacoup" class="sb-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <i class="fa fa-facebook"></i>
+              </a>
+			 
+            </div><!-- .social-bar -->
+                </div><!-- .widget_pages -->
+
+            </div><!-- .row -->
+
+            <div class="copyright">
+              <p>2018 &copy; Instacoup | All Right Reserved | Developed by : <a href="http://www.bwispl.com/utm_source=instacoup" title="Developed By BYTEWEB IT SOLUTIONS PRIVATE LIMITED">BWISPL</a></p>
+            </div><!-- .copyright -->
+
+          </div><!-- .col-md-7 --></div>
+
+          <div class="col-lg-4 col-lg-offset-1 col-md-5">
+            <a href="http://onelink.to/8xgsmz" class="market-btn app-store">
+              <div class="icon">
+                <i class="fa fa-apple"></i>
+              </div>
+              <div class="label">
+                <small>Download on the</small>
+                <h3>App Store</h3>
+              </div>
+            </a><!-- .app-store -->
+            <a href="http://onelink.to/8xgsmz" class="market-btn google-play">
+              <div class="icon">
+                <i class="fa fa-play"></i>
+              </div>
+              <div class="label">
+                <small>Get it on</small>
+                <h3>Google Play</h3>
+              </div>
+            </a><!-- .google-play -->
+          
+          </div><!-- .col-md-5 -->
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </footer><!-- .footer -->
+  </div><!-- .page-wrapper -->
+
+  <!-- JavaScript (jQuery) libraries, plugins and custom scripts -->
+  <script src="js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="js/vendor/preloader.min.js"></script>
+  <script src="js/vendor/placeholder.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/smoothscroll.js"></script>
+  <script src="js/vendor/velocity.min.js"></script>
+  <script src="js/vendor/magnific-popup.min.js"></script>
+  <script src="js/vendor/owl.carousel.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>
